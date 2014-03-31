@@ -8,7 +8,7 @@ The frontend for content creators is going to be WordPress. User groups in WordP
 ## backbone
 The backbone is a server that handles interaction between the PIEs and the CMS. It controls the subscriber groups on the network through the pub-sub pattern using zeromq.
 
-## Subscriber Groups
+### Subscriber Groups
 Subscriber groups are queues of actions that each PIE in the group follows on a timed rotation.
 
 ## Displays - P.I.E.s (Public Information Endpoints)
