@@ -5,8 +5,8 @@
         <?php
         // Start the Loop.
         while ( have_posts() ) : the_post();
-            echo "<iframe width='100%' height='1024px' src='".get_permalink()."&pi=true'>";
 
+            echo "<iframe id='pie_display' width='100%' height='500px' src='".get_permalink()."&pi=true'>";
 
             /*
                  * Include the post format-specific template for the content. If you want to
