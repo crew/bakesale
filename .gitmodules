@@ -1,3 +1,6 @@
 [submodule "server"]
 	path = server
 	url = git://github.com/crew/dds-server.git
+[submodule "client"]
+	path = client
+	url = git://github.com/crew/dds-client.git
